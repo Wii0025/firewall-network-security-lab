@@ -30,17 +30,51 @@ Authorisation: Determining which systems and resources a user is permitted to ac
 
 5. Firewall Rules and Access Control
 
+A firewall helps protect an internal server by monitoring and filtering incoming and outgoing network traffic based on configured security rules.
+
+Traffic to Allow
+
+- Legitimate HTTPS traffic required for business operations.
+- Approved VPN connections for authorised remote employees.
+- Necessary network services and connections.
+
+Traffic to Block
+
+- Unauthorised connection attempts.
+- Suspicious network traffic.
+- Unnecessary access to open ports.
+- Traffic that does not meet the organisation's security requirements.
+
+Firewall Security Approach
+
+- Apply a default-deny approach, allowing only necessary traffic.
+- Restrict access to approved services and ports.
+- Review firewall rules regularly.
+- Ensure security controls do not unnecessarily disrupt legitimate users.
+
+6. Network Traffic Monitoring
+
+Network monitoring helps identify unusual activity and potential security threats.
+
+Areas to investigate include:
+
+- Source and destination IP addresses.
+- Unusual connection attempts.
+- Network ports and protocols.
+- Firewall logs.
+- Suspicious traffic patterns.
+
+Monitoring Best Practices
+
+- Review firewall logs regularly.
+- Investigate repeated failed connection attempts.
+- Identify unusual network activity.
+- Review firewall rules when new risks are identified.
+
 - Allow legitimate network traffic.
 - Block unauthorised connections.
 - Restrict unnecessary access to internal servers.
 - Permit approved remote access.
-
-6. Network Traffic Monitoring
-
-- Review source and destination IP addresses.
-- Investigate login attempts and server logs.
-- Examine network ports and protocols.
-- Identify unusual traffic patterns.
 
 7. Key Learning Outcomes
 
