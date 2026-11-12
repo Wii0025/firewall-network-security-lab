@@ -76,20 +76,45 @@ Monitoring Best Practices
 - Restrict unnecessary access to internal servers.
 - Permit approved remote access.
 
-7. Key Learning Outcomes
+7. Security Priorities and Recommendations
 
-- Understanding network security threats.
-- Applying authentication and authorisation.
-- Understanding firewall rules and access control.
-- Monitoring network traffic.
-- Protecting internal servers and remote access.
+Priority: Strengthening Access Control
 
-8. Tools and Technologies
+My first priority would be to strengthen access control by ensuring that only authorised users can access the internal server.
 
-- GitHub
-- Markdown
-- Microsoft IT Support Specialist Professional Certificate
+Recommended Security Measures
+
+- Enforce Multi-Factor Authentication (MFA).
+- Review repeated failed login attempts.
+- Investigate suspicious account activity.
+- Ensure remote employees use approved VPN connections.
+- Apply appropriate access permissions based on employee roles.
+
+Reasoning
+
+Compromised user accounts could provide attackers with access to sensitive company systems and information.
+
+Strengthening authentication and access control would reduce this risk while allowing legitimate employees to continue working securely.
+
+8. Key Learning Outcomes
+
+Through this project, I have developed my understanding of:
+
+- Identifying network security risks.
+- Recognising potential brute-force attacks.
+- Authentication and authorisation.
+- The principle of least privilege.
+- Firewall rules and default-deny policies.
+- Network traffic monitoring.
+- Secure remote access using VPNs.
+- Multi-Factor Authentication (MFA).
 
 9. Further Improvements
 
-Future development may include practical firewall configuration, traffic analysis and security monitoring exercises.
+Future development may include:
+
+- Practical firewall configuration.
+- Testing firewall rules in a lab environment.
+- Analysing network traffic.
+- Reviewing security logs.
+- Exploring additional security monitoring tools.
